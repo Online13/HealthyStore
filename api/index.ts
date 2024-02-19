@@ -14,3 +14,5 @@ const port = parseInt(process.env.PORT || "4000");
 server.listen(port, process.env.HOST, () => {
    console.log(`🚀 Server is running on port http://localhost:${port}/`);
 });
+
+export default app;
