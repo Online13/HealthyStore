@@ -4,6 +4,7 @@
   "description": "",
   "main": "dist/api/index.js",
   "scripts": {
+    "prod": "NODE_ENV=production node --env-file=.env ./dist/api/index.js",
     "dev": "node --env-file=.env --require ts-node/register api/index.ts",
     "test": "node --test --require ts-node/register ./test/**/*.test.ts",
     "build": "tsc --build"
