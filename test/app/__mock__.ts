@@ -1,4 +1,4 @@
-import { Test } from "../app/type";
+import { Test } from "../../app/type";
 
 export const TEST_1: Test = {
    INPUT: {

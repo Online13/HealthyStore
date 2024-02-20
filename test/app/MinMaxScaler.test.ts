@@ -1,6 +1,6 @@
 import { beforeEach, describe, it } from "node:test";
 import assert from "node:assert";
-import { MinMaxScaler } from "../app/MinMaxScaler";
+import { MinMaxScaler } from "../../app/MinMaxScaler";
 
 describe("MinMaxScaler", () => {
    let scaler: MinMaxScaler;

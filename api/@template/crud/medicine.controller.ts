@@ -1,6 +1,6 @@
-import { Container } from "../../core/Container";
-import { Medicine, MedicineData } from "../type";
-import { Repository, container as mrContainer } from "./medicine.repository";
+import { Container } from "../../../core/Container";
+import { Medicine, MedicineData } from "../../type";
+import { Repository, container as mrContainer } from "../crud/medicine.repository";
 
 export class Controller {
    constructor(private repository: Repository) {

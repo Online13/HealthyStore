@@ -1,8 +1,8 @@
 import express, { Request, Response } from "express";
 import { Controller, container as mcContainer } from "./medicine.controller";
-import { Container } from "../../core/Container";
+import { Container } from "../../../core/Container";
 import * as core from "express-serve-static-core";
-import { MedicineData } from "../type";
+import { MedicineData } from "../../type";
 
 export class Router {
    router: express.Router;

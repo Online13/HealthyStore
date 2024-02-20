@@ -1,6 +1,7 @@
 import http from "http";
 import express from "express";
-import medicineRouter from "./medicine/medicine.router";
+import { container as mrContainer } from "./medicine/medicine.router";
+import { container as srContainer } from "./symptom/symptom.router";
 
 const app = express();
 const server = http.createServer(app);
@@ -8,7 +9,8 @@ const server = http.createServer(app);
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
-app.use(medicineRouter());
+app.use("/medicine", mrContainer.getInstance().routes());
+app.use("/symptom", srContainer.getInstance().routes());
 
 const port = parseInt(process.env.PORT || "4000");
 server.listen(port, process.env.HOST, () => {

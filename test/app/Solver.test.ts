@@ -1,6 +1,6 @@
 import assert from "node:assert";
-import { Solver } from "../app";
-import { Test } from "../app/type";
+import { Solver } from "../../app";
+import { Test } from "../../app/type";
 import { TEST_1, TEST_2, TEST_3 } from "./__mock__";
 import { beforeEach, describe, it } from "node:test";
 
