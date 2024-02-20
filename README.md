@@ -1,3 +1,3 @@
-# HealthyStore
+# md.store
 
-Une plateforme où les utilisateurs peuvent entrer leurs symptômes, puis utilise un algorithme de sélection de médicaments pour recommander les options les plus économiques tout en garantissant un traitement efficace.
+A platform where users can input their symptoms, then uses a medication selection algorithm to recommend the most cost-effective options while ensuring effective treatment.
